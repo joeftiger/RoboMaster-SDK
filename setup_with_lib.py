@@ -119,8 +119,9 @@ setup(
         'numpy >= 1.18',
         'opencv-python >= 4.2',
         'netaddr >= 0.8',
-        'netifaces >= 0.10',
-        'myqr >= 2.3'
+        'netifaces-plus >= 0.12.4',
+        'myqr >= 2.3',
+        'audioop-lts >= 0.2.2'
     ],
     ext_modules=[CMakeExtension('libmedia_codec', './lib/libmedia_codec/')],
     cmdclass=dict(build_ext=CMakeBuild),
