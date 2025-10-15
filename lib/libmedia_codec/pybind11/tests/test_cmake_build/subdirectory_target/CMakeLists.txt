@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.20)
 project(test_subdirectory_target CXX)
 
 add_subdirectory(${PYBIND11_PROJECT_DIR} pybind11)
